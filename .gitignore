@@ -1,0 +1,10 @@
+.DS_Store
+log/*.log
+tmp/**/*
+tmp/*
+
+.idea
+nbproject
+
+#config/database.yml
+db/*.sqlite3
