@@ -1,0 +1,18 @@
+- title "Membership"
+
+%p
+  %strong Person:
+  =h @membership.person
+%p
+  %strong Group:
+  =h @membership.group
+%p
+  %strong Archived At:
+  =h @membership.archived_at
+
+%p
+  = link_to "Edit", edit_membership_path(@membership)
+  |
+  = link_to "Destroy", @membership, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", memberships_path

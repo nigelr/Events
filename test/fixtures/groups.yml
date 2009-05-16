@@ -1,0 +1,14 @@
+group_1:
+  name: Brisbane Ruby
+  description: MyString
+  person: 
+
+group_2:
+  name: Sydney Ruby
+  description: MyString
+  person: 
+
+group_3:
+  name: BFG Brisbane Function Group
+  description: MyString
+  person:

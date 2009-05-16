@@ -1,0 +1,8 @@
+- title "Edit Membership"
+
+= render :partial => 'form'
+
+%p
+  = link_to "Edit", edit_membership_path(@membership)
+  |
+  = link_to "View All", memberships_path

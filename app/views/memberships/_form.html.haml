@@ -1,0 +1,17 @@
+= error_messages_for :membership
+
+- form_for @membership do |f|
+  %p
+    =f.label :person
+    %br
+    = f.text_field :person
+  %p
+    =f.label :group
+    %br
+    = f.text_field :group
+  %p
+    =f.label :archived_at
+    %br
+    = f.text_field :archived_at
+  %p
+    = f.submit "Submit"

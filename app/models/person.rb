@@ -1,5 +1,8 @@
 class Person < ActiveRecord::Base
   # new columns need to be added here to be writable through mass assignment
+  has_many :memberships
+  has_many :groups, :through => :memberships
+  
   attr_accessible :username, :email, :password, :password_confirmation
   
   attr_accessor :password

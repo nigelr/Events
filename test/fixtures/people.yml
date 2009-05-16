@@ -1,12 +1,24 @@
 # password: "secret"
-one:
-  username: foo
+person_1:
+  username: fred flinstone
   email: foo@example.com
   password_hash: 3488f5f7efecab14b91eb96169e5e1ee518a569f
   password_salt: bef65e058905c379436d80d1a32e7374b139e7b0
 
-two:
-  username: bar
+person_2:
+  username: barney rubble
   email: bar@example.com
+  password_hash: 3488f5f7efecab14b91eb96169e5e1ee518a569f
+  password_salt: bef65e058905c379436d80d1a32e7374b139e7b0
+
+person_3:
+  username: Bam Bam
+  email: bam@example.com
+  password_hash: 3488f5f7efecab14b91eb96169e5e1ee518a569f
+  password_salt: bef65e058905c379436d80d1a32e7374b139e7b0
+
+person_4:
+  username: Dino
+  email: dino@example.com
   password_hash: 3488f5f7efecab14b91eb96169e5e1ee518a569f
   password_salt: bef65e058905c379436d80d1a32e7374b139e7b0

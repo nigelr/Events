@@ -1,0 +1,17 @@
+- title "Memberships"
+
+%table
+  %tr
+    %th Person
+    %th Group
+    %th Archived at
+  - for membership in @memberships
+    %tr
+      %td= h membership.person
+      %td= h membership.group
+      %td= h membership.archived_at
+      %td= link_to 'Show', membership
+      %td= link_to 'Edit', edit_membership_path(membership)
+      %td= link_to 'Destroy', membership, :confirm => 'Are you sure?', :method => :delete
+
+%p= link_to "New Membership", new_membership_path

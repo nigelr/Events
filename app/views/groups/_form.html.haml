@@ -1,0 +1,17 @@
+= error_messages_for :group
+
+- form_for @group do |f|
+  %p
+    =f.label :name
+    %br
+    = f.text_field :name
+  %p
+    =f.label :description
+    %br
+    = f.text_field :description
+  %p
+    =f.label :person
+    %br
+    = f.text_field :person
+  %p
+    = f.submit "Submit"
