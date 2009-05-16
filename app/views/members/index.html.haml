@@ -8,6 +8,7 @@
     %tr
       %td= h member.name
       %td= h member.email
+      %td= member.groups.map(&:name).join " - "
       %td= link_to 'Show', member
       %td= link_to 'Edit', edit_member_path(member)
       %td= link_to 'Destroy', member, :confirm => 'Are you sure?', :method => :delete
