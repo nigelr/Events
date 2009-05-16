@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :members
+
   map.resources :memberships
 
   map.resources :groups
@@ -9,6 +11,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :sessions
 
   map.resources :people
+
+  map.root :members
 
 
  

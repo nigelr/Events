@@ -1,0 +1,15 @@
+- title "Member"
+
+%p
+  %strong Name:
+  =h @member.name
+%p
+  %strong Email:
+  =h @member.email
+
+%p
+  = link_to "Edit", edit_member_path(@member)
+  |
+  = link_to "Destroy", @member, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", members_path

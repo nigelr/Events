@@ -2,12 +2,12 @@
 
 %table
   %tr
-    %th Person
+    %th member
     %th Group
     %th Archived at
   - for membership in @memberships
     %tr
-      %td= h membership.person
+      %td= h membership.member
       %td= h membership.group
       %td= h membership.archived_at
       %td= link_to 'Show', membership

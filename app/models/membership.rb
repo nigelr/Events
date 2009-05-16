@@ -1,4 +1,4 @@
 class Membership < ActiveRecord::Base
   belongs_to :group
-  belongs_to :person
+  belongs_to :member
 end

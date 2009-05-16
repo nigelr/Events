@@ -1,0 +1,24 @@
+# password: "secret"
+person_1:
+  name: fred flinstone
+  email: foo@example.com
+#  password_hash: 3488f5f7efecab14b91eb96169e5e1ee518a569f
+#  password_salt: bef65e058905c379436d80d1a32e7374b139e7b0
+
+person_2:
+  name: barney rubble
+  email: bar@example.com
+#  password_hash: 3488f5f7efecab14b91eb96169e5e1ee518a569f
+#  password_salt: bef65e058905c379436d80d1a32e7374b139e7b0
+
+person_3:
+  name: Bam Bam
+  email: bam@example.com
+#  password_hash: 3488f5f7efecab14b91eb96169e5e1ee518a569f
+#  password_salt: bef65e058905c379436d80d1a32e7374b139e7b0
+
+person_4:
+  name: Dino
+  email: dino@example.com
+#  password_hash: 3488f5f7efecab14b91eb96169e5e1ee518a569f
+#  password_salt: bef65e058905c379436d80d1a32e7374b139e7b0

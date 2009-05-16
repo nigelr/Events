@@ -1,7 +1,7 @@
 class CreateMemberships < ActiveRecord::Migration
   def self.up
     create_table :memberships do |t|
-      t.references :person
+      t.references :member
       t.references :group
       t.datetime :archived_at
       t.timestamps

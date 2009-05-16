@@ -1,9 +1,24 @@
-one:
-  person: 
-  group: 
+membership_1:
+  member: member_1
+  group: group_1
   archived_at: 
 
-two:
-  person: 
-  group: 
+membership_2:
+  member: member_1
+  group: group_2
   archived_at: 
+
+membership_3:
+  member: member_1
+  group: group_3
+  archived_at:
+
+membership_4:
+  member: member_2
+  group: group_1
+  archived_at:
+
+membership_5:
+  member: member_2
+  group: group_3
+  archived_at:
