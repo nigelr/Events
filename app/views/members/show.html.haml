@@ -7,6 +7,8 @@
   %strong Email:
   =h @member.email
 
+%p Memberships
+= render :partial => "groups/index", :locals => {:groups=>@member.groups}
 %p
   = link_to "Edit", edit_member_path(@member)
   |

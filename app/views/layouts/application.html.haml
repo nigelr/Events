@@ -10,6 +10,9 @@
   
   %body
     #container
+      = link_to "Members", members_path
+      = link_to "Groups", groups_path
+      %br
       - flash.each do |name, msg|
         = content_tag :div, msg, :id => "flash_#{name}"
       
