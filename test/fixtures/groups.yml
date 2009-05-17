@@ -1,14 +1,11 @@
 group_1:
   name: Brisbane Ruby
   description: MyString
-  member:
 
 group_2:
   name: Sydney Ruby
   description: MyString
-  member:
 
 group_3:
   name: BFG Brisbane Function Group
   description: MyString
-  member:

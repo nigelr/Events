@@ -3,7 +3,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :memberships
 
-  map.resources :groups
+  map.resources :groups, :has_many => :members
 
   map.signup 'signup', :controller => 'people', :action => 'new'
   map.logout 'logout', :controller => 'sessions', :action => 'destroy'

@@ -9,12 +9,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090516150107) do
+ActiveRecord::Schema.define(:version => 20090517102721) do
+
+  create_table "group_managers", :force => true do |t|
+    t.integer  "group_id"
+    t.integer  "member_id"
+    t.datetime "archived_at"
+    t.boolean  "is_primary"
+    t.boolean  "is_assistant"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "groups", :force => true do |t|
     t.string   "name"
     t.string   "description"
-    t.integer  "member_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

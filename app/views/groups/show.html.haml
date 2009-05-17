@@ -6,11 +6,9 @@
 %p
   %strong Description:
   =h @group.description
-%p
-  %strong member:
-  =h @group.member
 
 %p
+  =# link_to "Members", group_members_path(@group)
   = link_to "Edit", edit_group_path(@group)
   |
   = link_to "Destroy", @group, :confirm => 'Are you sure?', :method => :delete
